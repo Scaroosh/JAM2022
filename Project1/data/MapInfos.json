@@ -1,8 +1,8 @@
 [
 null,
 {"id":1,"expanded":true,"name":"Field Map","order":1,"parentId":0,"scrollX":1089.3333333333333,"scrollY":629.3333333333334},
-{"id":2,"expanded":true,"name":"Maison 1","order":2,"parentId":1,"scrollX":1089.3333333333333,"scrollY":629.3333333333334},
+{"id":2,"expanded":true,"name":"Maison 1","order":2,"parentId":1,"scrollX":819,"scrollY":461},
 null,
 null,
-{"id":5,"expanded":false,"name":"Taudis","order":3,"parentId":1,"scrollX":1078.6666666666667,"scrollY":1522.6666666666667}
+{"id":5,"expanded":false,"name":"Taudis","order":3,"parentId":1,"scrollX":811,"scrollY":933}
 ]
