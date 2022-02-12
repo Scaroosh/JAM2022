@@ -332,11 +332,9 @@ MUSH_Achievements.prototype.createAchievementsList = function() {
 	//   - hideDesc: Set to true to hide the description when an anchievement isn't completed yet.
 	//
 	//-------------------------------------------------------------------------------
-	["Baby's first steps. 1",           1, "",         "Walk 10 steps",                            "3/0/10", "4/10/0",  false, false, false],
-	["Baby's first steps. 2",           2, "",         "Walk 100 steps",                            "3/0/10", "4/100/0",  false, false, false],
-	["Baby's first steps. 3",           3, "",         "Walk 200 steps",                            "3/0/10", "4/200/0",  false, false, false],
-	["Baby's first steps. 4",           4, "",         "Walk 350 steps",                            "3/0/10", "4/350/0",  false, false, false],
-	["Baby's first steps. 5",           5, "",         "Walk 500 steps",                            "3/0/10", "4/500/0",  false, false, false]
+	["Baby's first steps. 1",           1, "",         "Walk 50 steps",                            "1/5/1", "4/50/0",  false, false, false],
+	["Baby's first steps. 2",           2, "",         "Walk 100 steps",                            "1/6/1", "4/100/0",  false, false, false],
+	["Baby's first steps. 3",           3, "",         "Walk 200 steps",                            "1/7/1", "4/200/0",  false, false, false]
 
 	];
 
