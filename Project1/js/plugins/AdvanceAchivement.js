@@ -332,13 +332,18 @@ MUSH_Achievements.prototype.createAchievementsList = function() {
 	//   - hideDesc: Set to true to hide the description when an anchievement isn't completed yet.
 	//
 	//-------------------------------------------------------------------------------
-	["Baby's first steps. 1",           1, "",         "Walk 50 steps",                             "1/5/1", "4/50/0",  false, false, false],
-	["Baby's first steps. 2",           2, "",         "Walk 100 steps",                            "1/6/1", "4/100/0",  false, false, false],
-	["Baby's first steps. 3",           3, "",         "Walk 200 steps",                            "1/7/1", "4/200/0",  false, false, false],
-	["Maniac. 1",						4, "",         "Play for 15 seconds",						"1/8/1", "3/2100/0", false, false, false],
-	["Maniac. 2",						5, "",         "Play for 60 seconds",						"1/9/1", "3/8400/0", false, false, false],
-	["Maniac. 3",						6, "",         "Play for 120 seconds",						"1/10/1", "3/16800/0", false, false, false],
-	["Slayer. 1",						7, "",		   "Beat a group of bandits",					"2/5/1", "2/1/1", false, false, false]
+	["Premier pas. 1",           		2, "",       "Marcher 50 pas",                          "-1/0/0", "4/50/0",  false, false, false], // Premier pas => l'armure #5 1 fois
+	["Premier pas. 2",           		2, "",       "Marcher 100 pas",                         "1/5/1", "4/100/0",  false, false, false],
+	["Premier pas. 3",          	 	3, "",       "Marcher 200 pas",                         "1/6/1", "4/200/0",  false, false, false],
+	["Fanatique. 1",					4, "",       "Jouer pendant 15 secondes",				"1/8/1", "3/2100/0", false, false, false], // Fanatique => l'armure #8 1 fois
+	["Fanatique. 2",					5, "",       "Jouer pendant 60 secondes",				"1/9/1", "3/8400/0", false, false, false],
+	["Fanatique. 3",					6, "",       "Jouer pendant 120 secondes",				"1/10/1", "3/16800/0", false, false, false],
+	["Guerrier. 1",						1, "",		 "Battre un bandit",						"2/5/1", "2/1/1", false, false, false], // Guerrier => l'arme #5 1 fois
+	["Guerrier. 2",						1, "",		 "Battre deux bandits",						"2/6/1", "2/1/2", false, false, false],
+	["Guerrier. 3",						1, "",		 "Battre trois bandits",					"2/7/1", "2/1/3", false, false, false],
+	["Collectionneur.",					10, "",		 "Ramasser une pioche",						"2/8/1", "2/2/1", true, true, true], // Collectionneur => l'arme #8 1 fois
+	["Explorateur.",					2, "",		 "Trouver la zone cachée",					"-1/0/0", "2/3/1", false, false, false],
+	["Expert.",							1, "",		 "Battre le gorille",						"-1/0/0", "2/5/1", false, false, false]
 
 	];
 
